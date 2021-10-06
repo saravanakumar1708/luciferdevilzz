@@ -31,13 +31,13 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter With IMDB
+➥ Name :  AUTO FILTER BOT V3
     
-➥ Creator : [꧁࿗༒⚔𝐌𝐫 ℙℝ𝕆𝔽𝔼𝕊𝕆ℝ⚔༒࿗꧂:](t.me/noobzv)
+➥ Creator : [тᴹᶜ〙༒𝐋 𝐔 𝐂 𝐈 𝐅 𝐄 𝐑༒](t.me/Lucifer_DevilZ)
 
 ➥ Language : Python3
 
 ➥ Library : Pyrogram Asyncio 1.13.0
-UPDATES CHANNEL :@BOTS_GARAGE
-SUPPORT GROUP :@BOTS_ASK
+UPDATES CHANNEL :@Latest_Movie_Mediaa
+SUPPORT GROUP :@Latest_Movie_Media
 """
