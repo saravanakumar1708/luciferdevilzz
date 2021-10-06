@@ -38,6 +38,8 @@ ABOUT = """
 ➥ Language : Python3
 
 ➥ Library : Pyrogram Asyncio 1.13.0
-UPDATES CHANNEL :@Latest_Movie_Mediaa
-SUPPORT GROUP :@Latest_Movie_Media
+
+➥ UPDATES CHANNEL :@Latest_Movie_Mediaa
+
+➥SUPPORT GROUP :@Latest_Movie_Media
 """
