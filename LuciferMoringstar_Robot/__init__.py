@@ -31,7 +31,7 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  AUTO FILTER BOT V3
+➥ Name :  LUCIFER
     
 ➥ Creator : [тᴹᶜ〙༒𝐋 𝐔 𝐂 𝐈 𝐅 𝐄 𝐑༒](t.me/Lucifer_DevilZ)
 
