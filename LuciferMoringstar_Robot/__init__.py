@@ -25,7 +25,7 @@ Bot Owner Only
 /logger  Get Logs
 /delete Delete File From Database
 
-
+©@Lucifer_DevilZ
 
 
 """
