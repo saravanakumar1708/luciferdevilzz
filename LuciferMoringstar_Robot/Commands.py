@@ -118,11 +118,11 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("More Botz", url="https://t.me/BOTS_GARAGE")
+                InlineKeyboardButton("🔎Search Here🔎", switch_inline_query_current_chat=''),
+                InlineKeyboardButton("🔰CHANNEL 🔰", url="https://t.me/Latest_Movie_Media")
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("Help🤗", callback_data="help"),
+                InlineKeyboardButton("About😁", callback_data="about")
                 ]]
             )
         )
@@ -334,7 +334,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('More Botz', url='https://t.me/BOTS_GARAGE'),
+            InlineKeyboardButton('Group', url='https://t.me/Latest_Movie_Media'),
             
         ]
         ]
