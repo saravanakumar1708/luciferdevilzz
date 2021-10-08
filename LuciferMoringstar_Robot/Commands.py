@@ -126,8 +126,8 @@ async def start(bot, message):
                 InlineKeyboardButton("𝗢𝘄𝗻𝗲𝗿 ♻️", url="https://t.me/Lucifer_DevilZ")
                 ]]
             [
-        )
-        StopPropagation
+        ))
+        
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
