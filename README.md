@@ -21,8 +21,7 @@
 #### Deploy To Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?
-template=https://github.com/Adithyanadii/LuciferMoringstar_Robot.git)
-
+template=https://github.com/Adithyanadii/LuciferMoringstar_Robot.git
 
 #### Hard Way
 ```bash
