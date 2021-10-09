@@ -130,12 +130,6 @@ async def start(bot, message):
          )
      )
         
-               
-             
-         
-    
-   
-       
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
@@ -348,3 +342,5 @@ async def bot_info(bot, message):
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+           
+
