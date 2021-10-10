@@ -98,12 +98,12 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("😎ⓄⓌⓃⒺⓇ😎", url="https://t.me/Lucifer_DevilZ"),
-                        InlineKeyboardButton("♻️ⒼⓇⓄⓊⓅ♻️", url="https://t.me/Latest_Movie_Media")
+                        InlineKeyboardButton("😎𝗢𝘄𝗻𝗲𝗿😎", url="https://t.me/Lucifer_DevilZ"),
+                        InlineKeyboardButton("♻️𝗚𝗿𝗼𝘂𝗽♻️", url="https://t.me/Latest_Movie_Media")
                     ],
                     [
-                        InlineKeyboardButton("⭕️𝙲𝙷𝙰𝙽𝙽𝙴𝙻⭕️", url="https://t.me/Latest_Movie_Mediaa"),
-                        InlineKeyboardButton("💞Dev💞", url="https://t.me/Lucifer_DevilZ"),
+                        InlineKeyboardButton("⭕𝗖𝗵𝗮𝗻𝗻𝗲𝗹⭕️", url="https://t.me/Latest_Movie_Mediaa"),
+                        InlineKeyboardButton("💞𝗗𝗲𝘃💞", url="https://t.me/Lucifer_DevilZ"),
                       ]
                     ]
                  )
