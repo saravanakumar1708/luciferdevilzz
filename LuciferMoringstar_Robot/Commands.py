@@ -114,9 +114,7 @@ async def start(bot, message):
    else:
         await message.reply_video(
             video="https://telegra.ph/file/e9dda2769fad138590ee3.mp4"
-            START_MSG,
-            parse_mode="Markdown",
-            disable_web_page_preview=True,
+            caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
