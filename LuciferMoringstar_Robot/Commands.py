@@ -113,18 +113,21 @@ async def start(bot, message):
         )
     else:
         await message.reply_video(
-            video="https://telegra.ph/file/e9dda2769fad138590ee3.mp4"
+            video="https://telegra.ph/file/e9dda2769fad138590ee3.mp4",
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
-                [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/Latest_Movie_Media"),
-                ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
-                ]]
-            )
-        )
+                [
+                    [
+                        InlineKeyboardButton("😎dev😎", url="https://t.me/Lucifer_DevilZ"),
+                        InlineKeyboardButton(𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/Latest_Movie_Media"),
+                    ],
+                    [
+                        InlineKeyboardButton("Help⚙️", callback_data="help"),
+                        InlineKeyboardButton("Search Here♂️", switch_inline_query_current_chat='')
+                      ]
+                    ]
+                 )
+              )
         StopPropagation
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
