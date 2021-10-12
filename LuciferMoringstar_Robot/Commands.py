@@ -119,7 +119,7 @@ async def start(bot, message):
                 [
                     [
                         InlineKeyboardButton("😎dev😎", url="https://t.me/Lucifer_DevilZ"),
-                        InlineKeyboardButton(𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/Latest_Movie_Media"),
+                        InlineKeyboardButton("𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/Latest_Movie_Media")
                     ],
                     [
                         InlineKeyboardButton("Help⚙️", callback_data="help"),
