@@ -122,6 +122,10 @@ async def start(bot, message):
                         InlineKeyboardButton("➕️Add Me To Your Chats ➕️", url="https://t.me/Imdbbott_bot?startgroup=botstart")
                     ],  
                     [
+                        InlineKeyboardButton("💞 𝗗𝗲𝘃 💞", url="https://t.me/Lucifer_DevilZ"),
+                        InlineKeyboardButton("➕️Add Me To Your Chats ➕️", url="https://t.me/Imdbbott_bot?startgroup=botstart")
+                    ],  
+                    [
                         InlineKeyboardButton("𝗔𝗯𝗼𝘂𝘁 🚩", callback_data="about"),
                         InlineKeyboardButton("Search Here♂️", switch_inline_query_current_chat='')
                       ]
