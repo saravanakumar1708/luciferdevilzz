@@ -118,11 +118,11 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("😎dev😎", url="https://t.me/Lucifer_DevilZ"),
-                        InlineKeyboardButton("𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/Latest_Movie_Media")
+                        InlineKeyboardButton("💞 𝗗𝗲𝘃 💞", url="https://t.me/Lucifer_DevilZ"),
+                        InlineKeyboardButton("➕️Add Me To Your Chats ➕️", url="https://t.me/Imdbbott_bot?startgroup=botstart")
                     ],
                     [
-                        InlineKeyboardButton("Help🥺", callback_data="help"),
+                        InlineKeyboardButton("𝗔𝗯𝗼𝘂𝘁 🚩", callback_data="about"),
                         InlineKeyboardButton("Search Here♂️", switch_inline_query_current_chat='')
                       ]
                     ]
