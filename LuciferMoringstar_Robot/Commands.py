@@ -126,7 +126,7 @@ async def start(bot, message):
                     ],  
                     [
                         InlineKeyboardButton("𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 ❤️", url="https://t.me/Latest_Movie_Media"),
-                        InlineKeyboardButton("𝗖𝗵𝗮𝗻𝗻𝗲𝗹  ❣", url="https://t.me/Latest_Movie_Mediaa")
+                        InlineKeyboardButton("𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ❤", url="https://t.me/Latest_Movie_Mediaa")
                     ],  
                     [
                         InlineKeyboardButton("Search Here♂️", switch_inline_query_current_chat='')
