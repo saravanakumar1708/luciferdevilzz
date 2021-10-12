@@ -118,7 +118,6 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💞 𝗗𝗲𝘃 💞", url="https://t.me/Lucifer_DevilZ"),
                         InlineKeyboardButton("➕️Add Me To Your Chats ➕️", url="https://t.me/Imdbbott_bot?startgroup=botstart")
                     ],  
                     [
