@@ -53,7 +53,7 @@ async def filter(client, message):
     if 2 < len(message.text) < 100:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**🎬 Title:** {search}\n\n**⭐ Rating:** {random.choice(RATING)}\n\n**🎭 Genre:** {random.choice(GENRES)}\n\n**💿 Quality :- HDRip**\n\n**©️ Group by {message.chat.title}**😁ᴘʀᴏ ᴛɪᴘs:ചോദിച്ച മൂവി ഫയൽ കാണുന്നില്ല എങ്കിൽ അടുത്ത പേജിൽ നോക്കുക"
+        mo_tech_yt = f"**🎬 Title:** {search}\n\n**⭐ Rating:** {random.choice(RATING)}\n\n**🎭 Genre:** {random.choice(GENRES)}\n\n**💿 Quality :- HDRip**\n\n**©️ Group by:- {message.chat.title}** ᴘʀᴏ ᴛɪᴘs:ചോദിച്ച മൂവി ഫയൽ കാണുന്നില്ല എങ്കിൽ അടുത്ത പേജിൽ നോക്കുക😁"
         files = await get_filter_results(query=search)
         if files:
             for file in files:
@@ -115,7 +115,7 @@ async def group(client, message):
     if 2 < len(message.text) < 50:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**🎬 Title:** {search}\n\n**⭐ Rating:** {random.choice(RATING)}\n\n**🎭 Genre:** {random.choice(GENRES)}\n\n**💿 Quality :- HDRip**\n\n**©️ Group by {message.chat.title}**😁ᴘʀᴏ ᴛɪᴘs:ചോദിച്ച മൂവി ഫയൽ കാണുന്നില്ല എങ്കിൽ അടുത്ത പേജിൽ നോക്കുക"
+        mo_tech_yt = f"**🎬 Title:** {search}\n\n**⭐ Rating:** {random.choice(RATING)}\n\n**🎭 Genre:** {random.choice(GENRES)}\n\n**💿 Quality :- HDRip**\n\n**©️ Group by:- {message.chat.title}** ᴘʀᴏ ᴛɪᴘs:ചോദിച്ച മൂവി ഫയൽ കാണുന്നില്ല എങ്കിൽ അടുത്ത പേജിൽ നോക്കുക😁"
         nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
@@ -130,7 +130,7 @@ async def group(client, message):
                     [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")]
                 )
         else:
-            await message.reply(quote=True,text="<b>Sorry{message.from_user.mention}, No Movie/Series Related to the Given Word Was Found 🥺</b>\n\n<b>Please Go to Google and Confirm the Correct Spelling 🙏</b>\n\n<b>Click Here To 👉 <a href='https://www.google.com'>🔍 Search 🔎</a> </b>\n\n<b>✍Or Your Spelling Is Correct Report To Admins For Add Requested File:-♠️ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Mᴇᴅɪᴀ</b>")
+            await message.reply(quote=True,text="<b>Sorry bro , No Movie/Series Related to the Given Word Was Found 🥺</b>\n\n<b>Please Go to Google and Confirm the Correct Spelling 🙏</b>\n\n<b>Click Here To 👉 <a href='https://www.google.com'>🔍 Search Here 🔎</a> </b>\n\n<b>✍Or Your Spelling Is Correct Report To Admins For Add Requested File in our database:-♠️ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Mᴇᴅɪᴀ❣️</b>")
             return
     
         if not btn:
