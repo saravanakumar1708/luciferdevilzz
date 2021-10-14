@@ -53,7 +53,7 @@ async def filter(client, message):
     if 2 < len(message.text) < 100:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**🎬 Title:** {search}\n\n**⭐ Rating:** {random.choice(RATING)}\n\n**🎭 Genre:** {random.choice(GENRES)}\n\n**💿 Quality :- HDRip**\n\n**©️ Group by:- {message.chat.title}** ᴘʀᴏ ᴛɪᴘs:ചോദിച്ച മൂവി ഫയൽ കാണുന്നില്ല എങ്കിൽ അടുത്ത പേജിൽ നോക്കുക😁"
+        mo_tech_yt = f"**🎬 Title:** {search}\n\n**⭐ Rating:** {random.choice(RATING)}\n\n**🎭 Genre:** {random.choice(GENRES)}\n\n**💿 Quality :- HDRip**\n\n**©️ Group by:- {message.chat.title}**ᴘʀᴏ ᴛɪᴘs :ചോദിച്ച മൂവി ഫയൽ കാണുന്നില്ല എങ്കിൽ അടുത്ത പേജിൽ നോക്കുക😁"
         files = await get_filter_results(query=search)
         if files:
             for file in files:
