@@ -4,7 +4,7 @@ from os import environ
 
 id_pattern = re.compile(r'^.\d+$')
 
-# Bot information
+# Bot information.
 SESSION = environ.get('SESSION', 'LuciferMoringstar_Robot')
 API_ID = int(environ['API_ID'])
 API_HASH = environ['API_HASH']
